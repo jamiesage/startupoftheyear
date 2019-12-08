@@ -1,0 +1,42 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; /* Good practice, to make sure body and html elements cover 100% of what we see on the screen. */
+  font-family: 'Montserrat', sans-serif;  /* to make sure whole page uses Montserrat, if it can't, i.e. google font servers are down, use sans-serif -*/
+
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+hr {
+  border-color: #F05F44;
+  border-width: 3px;
+  max-width: 65px;
+}
+.btn-xl {   /*don't add more to this class, leave this class the way it's describing things, just making the button bigger*/
+    padding: 1rem 2rem;
+}
+.btn {
+  font-weight: 700;
+  border-radius: 300px; /*To make the borders more circular*/
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+.buffer {
+  height: 10rem;
+}
